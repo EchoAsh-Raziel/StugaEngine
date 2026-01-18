@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Config">
+      <UniqueIdentifier>{b0ca5559-d578-4260-b4fc-e40b187fcdbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platforms">
+      <UniqueIdentifier>{71e6d224-c12c-4b2e-8746-fd2a0d5a8b13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{2c6585fd-392f-46fe-bbfb-f7d98bdd2c93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{d3a20669-d403-482c-b99a-52ae2ce562a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Runtime">
+      <UniqueIdentifier>{16fa1631-e9d1-432a-aeb6-15628575b72c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Runtime\Core">
+      <UniqueIdentifier>{18132fb4-a476-41b3-8217-d13d68955d92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Runtime\Engine">
+      <UniqueIdentifier>{844b0cd9-e938-4a59-aa58-3e6ae94e1195}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Runtime\Launch">
+      <UniqueIdentifier>{4ba22cf9-5644-4307-8773-a48328c32bcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Runtime\RenderCore">
+      <UniqueIdentifier>{ebeb6973-7c30-49ab-ada2-c8bfb2ff759c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Runtime\Renderer">
+      <UniqueIdentifier>{f571f2a1-935d-4d1d-b304-6a9d5065e468}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Runtime\RHI">
+      <UniqueIdentifier>{d450bd2c-0953-4c59-a45f-10dfb27384b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Runtime\RHICore">
+      <UniqueIdentifier>{4ea55d31-42d3-49c5-92a6-156db6643474}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Runtime\Launch\Private">
+      <UniqueIdentifier>{b4a8eee6-65c8-48ae-a443-50d915971ea0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Runtime\Launch\Public">
+      <UniqueIdentifier>{3b2b19cf-7ce3-4a3b-88c5-4d89e1adac53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Runtime\Launch\Private\Windows">
+      <UniqueIdentifier>{2c75d6e3-4f8a-42db-a08a-88d51cb9bf0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Runtime\Core\Private">
+      <UniqueIdentifier>{5008662e-8488-4651-b169-af0e0159fd6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Runtime\Core\Public">
+      <UniqueIdentifier>{a1c79e36-c107-4aed-9121-81e350b37453}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Runtime\Core\Public\Windows">
+      <UniqueIdentifier>{8f3555ed-c988-47b4-9caf-cf5f87de13ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Runtime\Core\Public\Math">
+      <UniqueIdentifier>{1253f98e-0de5-4333-a272-c0c6f7079305}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Header Files\framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\StugaEngine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Runtime\Core\Public\Windows\WindowsHeader.h">
+      <Filter>Source\Runtime\Core\Public\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix.h">
+      <Filter>Source\Runtime\Core\Public\Math</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resource\small.ico">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="Resource\StugaEngine.ico">
+      <Filter>Resource</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source Files\StugaEngine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Runtime\Launch\Private\Windows\LaunchWindows.cpp">
+      <Filter>Source\Runtime\Launch\Private\Windows</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource\StugaEngine.rc">
+      <Filter>Resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

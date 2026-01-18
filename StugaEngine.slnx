@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="StugaEngine.vcxproj" Id="215243a1-cf8a-4c78-a589-2c3bd9c2545f" />
+</Solution>
